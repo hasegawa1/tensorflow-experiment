@@ -21,7 +21,7 @@ $ cd
 $ git clone https://github.com/karaage0703/tensorflow-experiment
 ```
 
-## MNIST CNN
+## Like MNIST NN
 Using `cnn_mnist.py` for cnn network
 ```sh
 $ cp ~/tensorflow-experiment/20170815_experiment/cnn_mnist.py ~/tensorflow-pi/cnn.py
@@ -40,11 +40,19 @@ step 1, training accuracy 0.0508475, loss nan
 ```
 
 
-## Like CIFAR10 NN
+## MNIST Base using CIFAR10 CNN Layer
 Using `cnn_cifar10_01.py` for cnn network
 ```sh
 $ cp ~/tensorflow-experiment/20170815_experiment/cnn_cifar10_01.py ~/tensorflow-pi/cnn.py
 ```
+
+![graph](./cifar10_01.png)
+
+```
+elapsed_time:7920.29748917[sec]
+test accuracy 0.429719
+```
+
 
 
 ## Like CIFAR10 NN
