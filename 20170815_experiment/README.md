@@ -1,9 +1,9 @@
+# Purpose
+
 
 # Conclusion
-...
 
 # Results
-...
 
 ## Preparation
 Setup tensorflow-pi:
@@ -24,7 +24,7 @@ $ git clone https://github.com/karaage0703/tensorflow-experiment
 ## MNIST CNN
 Using `cnn_mnist.py` for cnn network
 ```sh
-$ cp ~/tensorflow-experiment/20170815_experiment/cnn.mnist ~/tensorflow-pi/cnn.py
+$ cp ~/tensorflow-experiment/20170815_experiment/cnn_mnist.py ~/tensorflow-pi/cnn.py
 ```
 
 Train:
@@ -41,7 +41,10 @@ step 1, training accuracy 0.0508475, loss nan
 
 
 ## Like CIFAR10 NN
-...
+Using `cnn_cifar10_01.py` for cnn network
+```sh
+$ cp ~/tensorflow-experiment/20170815_experiment/cnn_cifar10_01.py ~/tensorflow-pi/cnn.py
+```
 
 
 ## Like CIFAR10 NN
