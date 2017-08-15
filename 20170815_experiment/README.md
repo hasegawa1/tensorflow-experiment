@@ -1,7 +1,8 @@
 # Purpose
-
+Compare MINST NN with CIFAR10 NN with Caltech101
 
 # Conclusion
+CNN Layer channnel number is important.
 
 # Results
 
