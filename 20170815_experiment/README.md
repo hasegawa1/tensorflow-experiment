@@ -34,7 +34,6 @@ $ cd ~/tensorflow-pi/
 $ python train.py
 ```
 
-
 ```
 step 0, training accuracy 0.0508475, loss nan
 step 1, training accuracy 0.0508475, loss nan
@@ -47,12 +46,19 @@ Using `cnn_cifar10_01.py` for NN
 $ cp ~/tensorflow-experiment/20170815_experiment/cnn_cifar10_01.py ~/tensorflow-pi/cnn.py
 ```
 
-![graph](./cifar10_01.png)
+Train:
+```sh
+$ cd ~/tensorflow-pi/
+$ python train.py
+```
 
 ```
 elapsed_time:7920.29748917[sec]
 test accuracy 0.429719
 ```
+
+![graph](./cifar10_01.png)
+
 
 
 
@@ -62,10 +68,15 @@ Using `cnn_cifar10_02.py` for NN
 $ cp ~/tensorflow-experiment/20170815_experiment/cnn_cifar10_01.py ~/tensorflow-pi/cnn.py
 ```
 
-![graph](./cifar10_02.png)
+Train:
+```sh
+$ cd ~/tensorflow-pi/
+$ python train.py
+```
 
 ```
 elapsed_time:9575.28440309[sec]
 test accuracy 0.432842
 ```
 
+![graph](./cifar10_02.png)
